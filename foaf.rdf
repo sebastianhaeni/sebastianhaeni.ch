@@ -1,0 +1,28 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:PersonalProfileDocument rdf:about="">
+      <foaf:maker rdf:resource="#me"/>
+      <foaf:primaryTopic rdf:resource="#me"/>
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:ID="me">
+        <foaf:name>Sebastian Häni</foaf:name>
+        <foaf:title>Mr</foaf:title>
+        <foaf:givenname>Sebastian</foaf:givenname>
+        <foaf:family_name>Häni</foaf:family_name>
+        <foaf:mbox_sha1sum>a5f46762bfd154fb9d59c41e27593b961a7f0ea6</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://sebastianhaeni.ch"/>
+        <foaf:depiction rdf:resource="http://sebastianhaeni.ch/profile.jpg"/>
+        <foaf:workplaceHomepage rdf:resource="http://www.dvbern.ch"/>
+        <foaf:workInfoHomepage rdf:resource="Software Engineer"/>
+        <foaf:schoolHomepage rdf:resource="http://www.bfh.ch"/>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Steven Cardini</foaf:name>
+                <foaf:mbox_sha1sum>fe7605795ccffec557d356f3e4e7cd65de4ceb3d</foaf:mbox_sha1sum>
+                <rdfs:seeAlso rdf:resource="http://www.cardini.ch/foaf.rdf"/>
+            </foaf:Person>
+        </foaf:knows>
+    </foaf:Person>
+</rdf:RDF>

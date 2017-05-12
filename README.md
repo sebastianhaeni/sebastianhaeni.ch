@@ -1,2 +1,3 @@
 # sebastianhaeni.ch
-Personal website
+
+My personal website. Keep it simple, stupid!
