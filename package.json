@@ -14,7 +14,7 @@
   "private": true,
   "homepage": "https://sebastianhaeni.ch",
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.1"
   },
   "dependencies": {}
 }
